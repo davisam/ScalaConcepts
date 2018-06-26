@@ -27,6 +27,7 @@ object FizzBuzz {
   private val End = 100
 
   /** Calculate the list of FizzBuzz numbers
+    *
     * @param start the number to start the list
     * @param end the number to end the list
     * @return the list of Fizz buzz numbers
@@ -50,18 +51,21 @@ object FizzBuzz {
   }
 
   /** Check if a number is Fizz buzz
+    *
     * @param number the number to check
     * @return FizzBuzz is the number is divisible by three and five
     */
   def isFizzBuzz(number: Int): Boolean = number % 15 == 0
 
   /** Check if a number is Fizz
+    *
     * @param number the number to check
     * @return Fizz is the number is divisible by three
     */
   def isFizz(number: Int): Boolean = number % 3 == 0
 
   /** Check if a number is Buzz
+    *
     * @param number the number to check
     * @return Buzz is the number is divisible by five
     */
