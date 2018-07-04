@@ -32,7 +32,7 @@ object FizzBuzz {
     * @param end the number to end the list
     * @return the list of Fizz buzz numbers
     */
-  def apply(start: Int = this.Start, end: Int = this.End): List[Any] = {
+  def apply(start: Int = Start, end: Int = End): List[Any] = {
     require(start <= end)
     List
       .range(start, end + 1)
